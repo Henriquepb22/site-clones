@@ -125,6 +125,11 @@ section p {
   color: #777 !important;
 }
 
+#politics a {
+  text-decoration: none;
+  color: #385898;
+}
+
 #submitBtn {
   width: 50%;
   font-weight: 700;
@@ -139,4 +144,36 @@ section p {
   border-radius: 5px;
   padding: 7px 20px 7px 20px;
   margin: 10px 0 10px 0;
+}
+
+#right input {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1c1e21;
+  border: 1px solid #bdc7d8;
+  border-radius: 7px;
+  padding: 8px 10px 8px 10px;
+  margin-bottom: 10px;
+}
+
+#fullName {
+  display: flex;
+  width: 40% !important;
+}
+
+#right select {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#createPage {
+  font-size: 13px !important;
+  line-height: 17px !important;
+  font-weight: 700 !important;
+  color: #666666 !important;
+}
+
+#createPage a {
+  text-decoration: none;
+  color: #385898;
 }

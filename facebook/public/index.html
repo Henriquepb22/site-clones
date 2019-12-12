@@ -5,6 +5,7 @@
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Facebook</title>
     <link rel="stylesheet" type="text/css" href="../src/styles/style.css" />
+    <script src="../src/index.js"></script>
   </head>
   <body>
     <header>
@@ -50,27 +51,36 @@
         <h2>Abra uma conta</h2>
         <h3>É rápido e fácil.</h3>
         <form>
-          <input type="text" placeholder="Nome" />
-          <input type="text" placeholder="Sobrenome" /> </br>
+          <div id="fullName">
+            <input type="text" placeholder="Nome" />
+            <input type="text" placeholder="Sobrenome" /> </br>
+          </div>
           <input type="text" placeholder="Celular ou email" /> </br>
           <input type="password" placeholder="Nova senha" /> </br>
           <label>Data de nascimento</label> </br>
-          <input type="date" /> </br>
+          <select id="daySelect">
+            <script>renderDays();</script>
+          </select>
+          <select id="monthSelect">
+            <script>renderMonths();</script>
+          </select>
+          <select id="yearSelect">
+            <script>renderYears();</script>
+          </select>
+        </br>
           <label>Gênero</label> </br>
           <input type="radio" name="gender" /> <span>Masculino</span>
           <input type="radio" name="gender" /> <span>Feminino</span>
           <input type="radio" name="gender" /> <span>Personalizado</span> </br>
           <i>?</i> </br>
-          <span id="politics">Ao clicar em Cadastre-se, você concorda com nossos <a>Termos</a>,
-            <a>Política de Dados</a> e <a>Política de Cookies</a>. Você pode
+          <span id="politics">Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>,
+            <a href="#">Política de Dados</a> e <a href="#">Política de Cookies</a>. Você pode
             receber notificações por SMS e pode cancelar isso quando
             quiser.</span> </br>
-          <button id="submitBtn" type="submit">Cadastre-se</button>
-        </form>
-        <span
-          ><a>Criar uma página</a> para uma celebridade, banda ou empresa.</span
-        >
-      </section>
-    </div>
+            <button id="submitBtn" type="submit">Cadastre-se</button>
+          </form>
+          <span id="createPage"><a href="#">Criar uma página</a> para uma celebridade, banda ou empresa.</span>
+        </section>
+      </div>
   </body>
 </html>
