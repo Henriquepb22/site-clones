@@ -51,36 +51,89 @@
         <h2>Abra uma conta</h2>
         <h3>É rápido e fácil.</h3>
         <form>
-          <div id="fullName">
-            <input type="text" placeholder="Nome" />
-            <input type="text" placeholder="Sobrenome" /> </br>
+          <div id="userData">
+            <div id="fullName">
+              <input type="text" placeholder="Nome" />
+              <input type="text" placeholder="Sobrenome" />
+            </div>
+            <input type="text" placeholder="Celular ou email" /> 
+            <input type="password" placeholder="Nova senha" /> 
           </div>
-          <input type="text" placeholder="Celular ou email" /> </br>
-          <input type="password" placeholder="Nova senha" /> </br>
           <label>Data de nascimento</label> </br>
-          <select id="daySelect">
-            <script>renderDays();</script>
-          </select>
-          <select id="monthSelect">
-            <script>renderMonths();</script>
-          </select>
-          <select id="yearSelect">
-            <script>renderYears();</script>
-          </select>
+          <div id="birthday">
+            <select id="daySelect">
+              <script>renderDays();</script>
+            </select>
+            <select id="monthSelect">
+              <script>renderMonths();</script>
+            </select>
+            <select id="yearSelect">
+              <script>renderYears();</script>
+            </select>
+          </div>
         </br>
-          <label>Gênero</label> </br>
-          <input type="radio" name="gender" /> <span>Masculino</span>
+        <div id="gender">
+          <label>Gênero</label></br>
           <input type="radio" name="gender" /> <span>Feminino</span>
+          <input type="radio" name="gender" /> <span>Masculino</span>
           <input type="radio" name="gender" /> <span>Personalizado</span> </br>
-          <i>?</i> </br>
-          <span id="politics">Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>,
+        </div>
+          <p id="politics">Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>,
             <a href="#">Política de Dados</a> e <a href="#">Política de Cookies</a>. Você pode
             receber notificações por SMS e pode cancelar isso quando
-            quiser.</span> </br>
+            quiser.</p> </br>
             <button id="submitBtn" type="submit">Cadastre-se</button>
           </form>
-          <span id="createPage"><a href="#">Criar uma página</a> para uma celebridade, banda ou empresa.</span>
+          <p id="createPage"><a href="#">Criar uma página</a> para uma celebridade, banda ou empresa.</p>
         </section>
       </div>
+      <footer>
+        <nav id="translate">
+          <a id="pt">Português (Brasil)</a>
+          <a href="#">English (US)</a>
+          <a href="#">Español</a>
+          <a href="#">Français (France)</a>
+          <a href="#">Italiano</a>
+          <a href="#">Deustsch</a>
+          <a href="#">العربية</a>
+          <a href="#">हिन्दी</a>
+          <a href="#">中文(简体)</a>
+          <a href="#">日本語</a>
+          <button class="plus">+</button>
+        <hr>
+        </nav>
+        <nav id="siteMap">
+          <a href="#">Cadastre-se</a>
+          <a href="#">Entrar</a>
+          <a href="#">Messenger</a>
+          <a href="#">Facebook Lite</a>
+          <a href="#">Watch</a>
+          <a href="#">Pessoas</a>
+          <a href="#">Páginas</a>
+          <a href="#">Categories de Página</a>
+          <a href="#">Locais</a>
+          <a href="#">Jogos</a>
+          <a href="#">Locais</a>
+          <a href="#">Marketplace</a>
+          <a href="#">Grupos</a>
+          <a href="#">Instagram</a>
+          <a href="#">Local</a>
+          <a href="#">Campanhas de arrecadação de fundos</a>
+          <a href="#">Serviços</a>
+          <a href="#">Sobre</a>
+          <a href="#">Criar anúncio</a>
+          <a href="#">Criar Página</a>
+          <a href="#">Desenvolvedores</a>
+          <a href="#">Carreiras</a>
+          <a href="#">Privacidade</a>
+          <a href="#">Cookies</a>
+          <a href="#">Opções de anúncio</a>
+          <a href="#">Termos</a>
+          <a href="#">Ajuda</a>
+        </br>
+      </br>
+          <a id="copyright">Facebook &copy; 2019</a>
+      </nav>
+      </footer>
   </body>
 </html>

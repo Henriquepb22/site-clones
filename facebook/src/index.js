@@ -17,9 +17,18 @@ function renderMonths() {
   let months = ["Mês"];
   let selectMonthEl = document.getElementById("monthSelect");
 
-  for (let i = 1; i <= 12; i++) {
-    months.push(i);
-  }
+  months.push("Jan");
+  months.push("Fev");
+  months.push("Mar");
+  months.push("Abr");
+  months.push("Maio");
+  months.push("Jun");
+  months.push("Jul");
+  months.push("Ago");
+  months.push("Set");
+  months.push("Out");
+  months.push("Nov");
+  months.push("Dez");
 
   months.forEach(month => {
     let monthOption = document.createElement("option");

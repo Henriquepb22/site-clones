@@ -8,7 +8,6 @@ body {
 
 body {
   background: linear-gradient(#ffffff, #d3d8e8);
-  height: 100vh;
 }
 
 #menu {
@@ -34,7 +33,6 @@ header h1 {
 
 table {
   margin: 10px 0 0 0;
-  font-weight: 400;
   font-size: 12px;
   line-height: 16px;
 }
@@ -59,7 +57,6 @@ table td {
 }
 
 #forgot {
-  font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #9cb4d8;
@@ -99,10 +96,12 @@ section p {
 }
 
 #right h3 {
-  font-weight: 400;
   line-height: 25px;
+  font-weight: 400;
   font-size: 19px;
   color: #1d2129;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 #right label {
@@ -120,9 +119,13 @@ section p {
 }
 
 #politics {
-  font-size: 11px !important;
-  line-height: 15px !important;
-  color: #777 !important;
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 15px;
+  color: #777;
+  width: 85%;
+  font-weight: 400;
+  text-align: justify;
 }
 
 #politics a {
@@ -143,12 +146,10 @@ section p {
   box-shadow: inset 0 1px 1px #a4e388;
   border-radius: 5px;
   padding: 7px 20px 7px 20px;
-  margin: 10px 0 10px 0;
 }
 
 #right input {
   font-size: 18px;
-  font-weight: 400;
   color: #1c1e21;
   border: 1px solid #bdc7d8;
   border-radius: 7px;
@@ -156,24 +157,113 @@ section p {
   margin-bottom: 10px;
 }
 
+#userData input {
+  width: 95%;
+}
+
 #fullName {
   display: flex;
-  width: 40% !important;
+  justify-content: space-between;
+}
+
+#fullName input {
+  width: 43%;
 }
 
 #right select {
   font-size: 13px;
-  font-weight: 400;
+}
+
+#daySelect,
+#monthSelect,
+#yearSelect {
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccd0d5;
+}
+
+#birthday {
+  display: flex;
+}
+
+#gender input {
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 #createPage {
-  font-size: 13px !important;
-  line-height: 17px !important;
-  font-weight: 700 !important;
-  color: #666666 !important;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 700;
+  color: #666666;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 #createPage a {
   text-decoration: none;
   color: #385898;
+}
+
+footer {
+  background: #fff;
+  height: 150px;
+  padding-top: 20px;
+}
+
+#translate {
+  margin: 0 auto;
+  width: 980px;
+}
+
+#translate a {
+  text-decoration: none;
+  line-height: 16px;
+  font-size: 12px;
+  padding: 5px;
+  color: #385898;
+}
+
+#translate a:hover {
+  text-decoration: underline;
+}
+
+#pt {
+  color: #737373 !important;
+  text-decoration: none !important;
+}
+
+#translate hr {
+  margin-top: 10px;
+  color: #dddfe2;
+  margin-bottom: 10px;
+}
+
+.plus {
+  cursor: pointer;
+  border: 1px solid #ccd0d5;
+  padding: 3px 12px 3px 12px;
+}
+
+#siteMap {
+  margin: 0 auto;
+  width: 980px;
+}
+
+#siteMap a {
+  text-decoration: none;
+  line-height: 16px;
+  font-size: 12px;
+  color: #385898;
+  padding: 7px;
+}
+
+#siteMap a:hover {
+  text-decoration: underline;
+}
+
+#copyright {
+  font-size: 11px !important;
+  line-height: 15px !important;
+  color: #737373 !important;
 }
