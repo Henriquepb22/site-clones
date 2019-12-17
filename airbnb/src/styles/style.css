@@ -24,17 +24,21 @@ main div {
   justify-content: space-between;
 }
 
-.menu {
-  align-self: center;
-}
-
-.linksList {
-  list-style: none;
+#linksList {
   display: flex;
+  align-items: center;
+  list-style: none;
+  height: 80px;
 }
 
-.linksList li {
-  margin: 20px;
+#linksList li {
+  padding: 23px 8px 23px 8px;
+  margin: 0 12px 0 12px;
+  border-bottom: 2px solid transparent;
+}
+
+#linksList li:hover {
+  border-bottom: 2px solid white;
 }
 
 .menuLinks {
@@ -43,4 +47,55 @@ main div {
   font-size: 14px;
   line-height: 14px;
   font-weight: 600;
+}
+
+#findForm {
+  background: white;
+  border-radius: 5px;
+  height: 500px;
+  width: 400px;
+  margin-left: 80px;
+  margin-top: 60px;
+  padding: 30px;
+}
+
+#findForm h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #484848;
+}
+
+#findForm label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #484848;
+  margin-bottom: 5px;
+  margin-top: 16px;
+}
+
+#formInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+#formInputs input {
+  font-size: 17px;
+  color: #000;
+  padding: 0 12px 0 12px;
+  height: 48px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+}
+
+#formInputs button {
+  padding: 10px 22px 10px 22px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 800;
+  color: white;
+  background: #ff5a5f;
+  border: none;
+  border-radius: 5px;
+  width: 25%;
 }
