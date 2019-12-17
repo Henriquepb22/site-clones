@@ -3,4 +3,44 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue",
+    sans-serif;
+}
+
+main {
+  background: url("../img/0ffd8594-f123-43f0-85bb-7ef88c6f0624.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+svg {
+  color: white;
+  font-size: 34px;
+  padding: 24px;
+}
+
+main div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  align-self: center;
+}
+
+.linksList {
+  list-style: none;
+  display: flex;
+}
+
+.linksList li {
+  margin: 20px;
+}
+
+.menuLinks {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
 }
