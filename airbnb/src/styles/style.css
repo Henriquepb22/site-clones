@@ -119,3 +119,120 @@ main div {
   font-size: 14px;
   line-height: 20px;
 }
+
+section {
+  margin: 15px 80px 0 80px;
+}
+
+#explorer {
+  margin-bottom: 50px;
+}
+
+#explorer h4 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 800;
+  color: #484848;
+}
+
+#miniCards {
+  display: flex;
+  justify-content: space-around;
+}
+
+#miniCards a {
+  width: 380px;
+  margin: 20px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#miniCards img {
+  width: 120px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#miniCards span {
+  margin: 10px;
+  color: #484848;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#adventures {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+#adventuresA {
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #008489;
+  text-decoration: none;
+}
+
+#adventuresA:hover {
+  text-decoration: underline #008489;
+}
+
+#adventures h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #484848;
+  font-weight: 800;
+}
+
+#adventuresParagraph {
+  width: 550px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #484848;
+  margin-bottom: 25px;
+}
+
+#adventuresCards {
+  display: flex;
+}
+
+#adventuresCards a {
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+}
+
+#adventuresCards a:hover {
+  text-decoration: none;
+}
+
+#adventuresCards img {
+  width: 220px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+#adventuresCards h4 {
+  font-size: 12px;
+  line-height: 16px;
+  color: #222;
+}
+
+#adventuresCards p {
+  margin: 10px 0 10px 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222;
+}
+
+#adventuresCards span {
+  font-size: 14px;
+  line-height: 18px;
+  color: #222;
+}
