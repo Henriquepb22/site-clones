@@ -2,6 +2,7 @@ import React from 'react'
 
 import ProfileData from '../../components/ProfileData'
 import RepoCard from '../../components/RepoCard'
+import CalendarHeatmap from '../../components/CalendarHeatmap'
 
 import * as S from './styles'
 
@@ -42,6 +43,7 @@ const Profile: React.FC = () => {
                             ))}
                         </div>
                     </S.ReposWrapper>
+                    <CalendarHeatmap />
                 </S.RightSide>
             </S.MainWrapper>
         </S.ProfileWrapper>
